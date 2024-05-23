@@ -32,13 +32,29 @@
             margin: 0 auto;
         }
 
+        button{
+            width: 100%;
+            height: 40px;
+            border: none;
+        }
+
     </style>
+
+    <script>
+        function check(){
+            alert("아이디와 비밀번호 체크");
+        }
+    </script>
+
 </head>
 <body>
     
     <div class="login-wrap">
         <div class="login-img"></div>
-        <div class="login-info">로그인정보</div>
+        <div class="login-info">
+            로그인정보
+            <button onclick="check()">로그인</button>
+        </div>
     </div>
 </body>
 </html>
